@@ -1,11 +1,13 @@
-import tweepy #This module or package is to connect through Twitter API.
-from textblob import TextBlob # This module is useful to give the polarity score of the tweets.
-consumer_key = 'Y12HRyJy7HeqqWvH50e1vfKoH'
+import tweepy 
+#This module or package is to connect through Twitter API.
+from textblob import TextBlob 
+# This module is useful to give the polarity score of the tweets.
+consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'
 # These are the keys to authenticate Twitter API
-consumer_secret = 'HGpIIbhda35iRQhKJDpDs801CibZ8jgO56KjLPfD7neSYTmqre'
+consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 #These keys will be regenerate from the developer account.
-access_token = '1423834823441883137-WabLIW4m5klKKfoEfq5XWi1T1K2h7e'
-access_token_secret = 'YNAaxtsjtYdcpWVOJDM53STbh528PpliEqkTjogTJXsZo'
+access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 # This will check whether the consumer_key and consumer_secret_key was correct.If correct means it will authenticate.
 # Thats why we are using OAuthHandler built in functions.
